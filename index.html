@@ -1,44 +1,158 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leropong Guest House</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Leropong Guest House</title>
 </head>
+
 <body>
 
-    <header class="navbar">
-        <div class="menu-btn">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-        </div>
-        <div class="brand">
-            <span class="brand-name">LEROPONG</span>
-            <span class="brand-sub">GUEST HOUSE</span>
-        </div>
-        <button class="nav-book">BOOK NOW</button>
-    </header>
+<header>
+<h1>Leropong Guest House</h1>
+<p>Your peaceful home away from home</p>
+</header>
 
-    <main class="hero-section">
-        <h1 class="special-title">STAY LONGER <br> SPECIAL</h1>
-        
-        <div class="hero-image-container">
-            <img src="Screenshot 2026-03-01 at 16.58.03.png" alt="Leropong Guest House Logo" class="hero-img">
-        </div>
+<nav>
+<a href="#home">Home</a>
+<a href="#rooms">Rooms</a>
+<a href="#booking">Book Now</a>
+<a href="#contact">Contact</a>
+</nav>
 
-        <div class="price-container">
-            <span class="price-label">FROM</span>
-            <span class="currency-box">BWP</span>
-            <span class="price-amount">1,377</span>
-        </div>
+<section id="home">
 
-        <button class="main-cta">BOOK NOW</button>
-        
-        <p class="description">We're making it easy to enjoy extra nights</p>
-    </main>
+<h2>Welcome to Leropong Guest House</h2>
+<p>Enjoy comfort, relaxation and excellent hospitality.</p>
+
+<button>Book Now</button>
+
+</section>
+
+
+<section id="rooms">
+
+<h2>Our Rooms</h2>
+
+<div>
+
+<img src="standard-room.jpg" alt="Standard Room" width="300">
+<h3>Standard Room</h3>
+<p>Price: P450 per night</p>
+<button>Book Now</button>
+
+</div>
+
+<div>
+
+<img src="deluxe-room.jpg" alt="Deluxe Room" width="300">
+<h3>Deluxe Room</h3>
+<p>Price: P650 per night</p>
+<button>Book Now</button>
+
+</div>
+
+<div>
+
+<img src="" alt="Family Room" width="300">
+<h3>Family Room</h3>
+<p>Price: P900 per night</p>
+<button>Book Now</button>
+
+</div>
+
+</section>
+
+
+<section>
+
+<h2>Room Features</h2>
+
+<table border="1">
+
+<tr>
+<th>Room Type</th>
+<th>WiFi</th>
+<th>TV</th>
+<th>Air Conditioning</th>
+<th>Price</th>
+</tr>
+
+<tr>
+<td>Standard</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>P450</td>
+</tr>
+
+<tr>
+<td>Deluxe</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>P650</td>
+</tr>
+
+<tr>
+<td>Family</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>P900</td>
+</tr>
+
+</table>
+
+</section>
+
+
+<section id="booking">
+
+<h2>Book Your Stay</h2>
+
+<form>
+
+<label>Name:</label><br>
+<input type="text"><br><br>
+
+<label>Email:</label><br>
+<input type="email"><br><br>
+
+<label>Check-in Date:</label><br>
+<input type="date"><br><br>
+
+<label>Check-out Date:</label><br>
+<input type="date"><br><br>
+
+<label>Special Requests:</label><br>
+<textarea rows="4" cols="30"></textarea><br><br>
+
+<button type="submit">Submit Booking</button>
+
+</form>
+
+</section>
+
+
+<section id="contact">
+
+<h2>Contact Us</h2>
+
+<p>Location: Gaborone, Botswana</p>
+<p>Phone: +267 73 119 666</p>
+<p>Email: leropongguesthouse@gmail.com</p>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 Leropong Guest House</p>
+
+</footer>
 
 </body>
 </html>
