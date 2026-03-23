@@ -1,0 +1,112 @@
+:root {
+  --primary-green: #2d5a27; 
+  --light-green: #f4f9f4;   
+  --text-dark: #333333;
+  --white: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--white);
+  color: var(--text-dark);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-green);
+  color: white;
+  height: 70px;
+}
+
+.menu-icon {
+  padding: 0 20px;
+}
+
+.menu-icon span {
+  display: block;
+  width: 25px;
+  height: 2px;
+  background: white;
+  margin: 5px 0;
+}
+
+.logo {
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 1.2;
+}
+
+.logo small {
+  font-size: 0.6rem;
+  font-weight: normal;
+}
+
+.book-btn {
+  background: white;
+  color: var(--primary-green));
+  border: none;
+  height: 100%;
+  padding: 0 25px;
+  font-weight: bold;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.content {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 2.5rem;
+  color: #666;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+}
+
+.image-wrapper img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  box-shadow: 0 4px 15px gray;
+}
+
+.pricing {
+  margin: 30px 0;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.currency {
+  padding-bottom: 5px;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 1.5rem;
+  color: #444;
+}
+
+.cta-btn {
+  background-color: var(--primary-green);
+  color: white;
+  border: none;
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.tagline {
+  color: #777;
+  font-style: italic;
+}
