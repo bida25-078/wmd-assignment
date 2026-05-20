@@ -1,82 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leropong Guest House</title>
+    <title>Leropong Guest House - Welcome</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
     <header>
-        <h1>LEROPONG GUEST HOUSE</h1>
+        <div class="header-top">
+            <div class="logo-placeholder">Logo Top Left Corner</div> 
+        </div>
+        <h1 class="main-title">Leropong Guest House</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="booknow.html">Book Now</a></li> 
+                <li><a href="contact.html">Contact</a></li> 
+                <li><a href="specials.html">Specials</a></li> 
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-    <a href="index.html">Home</a>
-    <a href="rooms.html">Rooms</a>
-    <a href="booking.html">Book Now</a>
-    <a href="contact.html">Contact</a>
-    </nav>
-
-    <section id="home">
-        <p>WELCOME TO LEROPONG GUEST HOUSE!</p>
-        <p>YOU ARE GUARANTEED FRESH AIR, GREAT VIEWS, RELAXATION AND COMFORT IN THIS GUEST HOUSE LOCATED ON A FARM 200m EAST OF MOSHUPA BOTSWANA</p>
-    </section>
-
-    <section id="rooms">
-        <h2>Rooms</h2>
-        <div class="room-container">
-            <div class="room-card">
-                <img src="Screenshot 2026-03-01 at 16.58.03.png" alt="Room 1">
-                <p>DESCRIPTION AND PRICE OF ROOM 1 IN BWP</p>
-                <button>BOOK NOW</button>
-            </div>
-            </div>
-    </section>
-
-    <section id="specials">
-        <h2>THIS MONTH'S SPECIALS</h2>
-        <div class="special-card">
-            <p>DESCRIPTION OF SPECIAL 1 WITH PRICES IN BWP</p>
-            <button>BOOK NOW</button>
-        </div>
+    <main>
+        <section class="hero-banner">
+            <h2>Experience Rural Luxury</h2>
+            <p>Guaranteed fresh air, great views, relaxation and comfort located on a pristine farm setup 200m East of Moshupa, Botswana.</p> 
+            <a href="rooms.html" class="btn-book">Explore Our Rooms</a>
         </section>
 
-    <section id="booking">
-        <h2>BOOK NOW !</h2>
-        <form>
-            <label>NAME:</label>
-            <input type="text">
+        <h2 class="section-title">Discover Leropong Life</h2>
+        <section class="highlights-grid">
             
-            <label>EMAIL:</label>
-            <input type="email">
-            
-            <label>CHECK IN DATE:</label>
-            <input type="date">
-            
-            <label>CHECK OUT DATE:</label>
-            <input type="date">
-            
-            <label>SPECIAL REQUESTS:</label>
-            <textarea></textarea>
-            
-            <button type="submit" class="confirm-btn">CONFIRM BOOKING</button>
-        </form>
-    </section>
+            <div class="highlight-card">
+                <img src="images/farm-view.jpg" alt="Moshupa Landscape Views">
+                <h3>Scenic Farm Views</h3>
+                <p>Wake up to endless blue skies, expansive fields, and the soothing sights of local countryside landscapes.</p>
+            </div>
 
-    <section id="contact">
-        <h2>CONTACT US NOW!</h2>
-        <p>CONTACT DETAILS OF ALL SOCIAL MEDIA (FACEBOOK, INSTAGRAM, TIKTOK) INCLUDING A HYPERLINK TO CHAT ON WHATSAPP</p>
-        <p>EMAIL</p>
-        
-        <h2>WHERE EXACTLY ARE WE?</h2>
-        <p>WRITTEN DIRECTIONS TO THE LEROPONG GUEST HOUSE LOCATION</p>
-        <p>HYPERLINK TO A 'GOOGLE MAPS' PIN LOCATION</p>
-    </section>
+            <div class="highlight-card">
+                <img src="images/luxury-pool.jpg" alt="Relaxation Lounge Area">
+                <h3>Tranquil Relaxation</h3>
+                <p>Unwind in our uniquely curated green spaces tailored for your mental peace and deep physical restoration.</p>
+            </div>
+
+            <div class="highlight-card">
+                <img src="images/dining.jpg" alt="Traditional Dining Setup">
+                <h3>Authentic Hospitality</h3>
+                <p>Enjoy pristine hospitality spaces built with beautiful organic materials reflecting local Botswana warmth.</p>
+            </div>
+
+        </section>
+
+        <section class="cta-banner">
+            <h3>Ready to Plan Your Escape?</h3>
+            <p>Secure your preferred chalet dates today and unlock special seasonal packages.</p>
+            <a href="booknow.html" class="btn-book btn-light">Make a Reservation</a> 
+        </section>
+    </main>
 
     <footer>
-        <p>Please come and visit us at Leropong Guest House...</p>
+        <p>CONTACT DETAILS OF LEROPONG GUEST HOUSE</p> 
+        <p>© 2026 Leropong Guest House. All Rights Reserved.</p>
     </footer>
 
 </body>
